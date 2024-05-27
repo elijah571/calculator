@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <input readonly class="display" placeholder="0">
+            <div class="keys">
+                <button class="clear">AC</button>
+                <button class="change-btn">+/-</button>
+                <button onclick="keys('%')" class="percentage">%</button>
+                <button onclick="keys('/')">/</button>
+                <button onclick="keys('7')">7</button>
+                <button onclick="keys('8')">8</button>
+                <button onclick="keys('9')">9</button>
+                <button onclick="keys('*')">x</button>
+                <button onclick="keys('4')">4</button>
+                <button onclick="keys('5')">5</button>
+                <button onclick="keys('6')">6</button>
+                <button onclick="keys('-')">-</button>
+                <button onclick="keys('1')">1</button>
+                <button onclick="keys('2')">2</button>
+                <button onclick="keys('3')">3</button>
+                <button onclick="equal()">=</button>
+                <button onclick="keys('0')">0</button>
+                <button onclick="keys('.')">.</button>
+                <button onclick="keys('+')">+</button>
+                <button class="delete">Del</button>
+                <!-- <button class="delete">Del</button> -->
+               
+            </div>
+        </div>
+    </div>
+
+<script src="app.js"></script>    
+</body>
+</html>
